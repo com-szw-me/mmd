@@ -1,0 +1,15 @@
+package com.szw.me.mmd;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
+@EnableEurekaClient
+@SpringBootApplication
+public class MmdApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MmdApplication.class, args);
+    }
+
+}
